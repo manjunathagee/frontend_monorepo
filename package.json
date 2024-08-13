@@ -6,7 +6,9 @@
     "lint": "turbo lint",
     "type-check": "turbo type-check",
     "clean": "turbo clean",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "frontend-quiz-dev": "turbo dev --filter=frontend-quiz",
+    "frontend-quiz-build": "turbo build --filter=frontend-quiz"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
