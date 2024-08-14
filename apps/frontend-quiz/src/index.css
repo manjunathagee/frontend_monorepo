@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik-Regular"), url("./assets/fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rubik-Italic";
+  src: local("Rubik-Italic"), url("./assets/fonts/Rubik-Italic.ttf");
+}
+
+@layer utilities {
+  .bg-container {
+    @apply min-h-dvh w-full bg-light-grey-200 bg-light-dual-images bg-no-repeat bg-top-left-bottom-right dark:bg-grey-500 dark:bg-dark-dual-images relative;
+  }
+}

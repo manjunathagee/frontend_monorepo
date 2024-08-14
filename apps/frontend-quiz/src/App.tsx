@@ -1,10 +1,11 @@
+import { ThemeProvider } from "./providers/theme-provider";
+import { AppRoutes } from "./routes";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline text-green-100">
-        Hello world!
-      </h1>
-    </>
+    <ThemeProvider>
+      <AppRoutes />
+    </ThemeProvider>
   );
 }
 

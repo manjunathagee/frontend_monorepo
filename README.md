@@ -56,4 +56,13 @@ This Turborepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+
 # frontend_monorepo
+
+### FrontendQuiz App
+
+- Add custom fonts to Vite app
+- Extend Tailwind default configs using presets
+- React router
+- ZuStand
+- Typescript namespace package
