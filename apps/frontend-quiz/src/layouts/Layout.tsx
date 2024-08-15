@@ -1,5 +1,3 @@
-import { ThemeSwitcher } from "@/components/ThemeSwitcher";
-
 export type LayoutProps = {
   children: React.ReactNode;
 };
@@ -7,7 +5,6 @@ export type LayoutProps = {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="relative bg-container">
-      <ThemeSwitcher />
       <main>{children}</main>
     </div>
   );

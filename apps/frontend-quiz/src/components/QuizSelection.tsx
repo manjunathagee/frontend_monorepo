@@ -1,5 +1,7 @@
+import Layout from "@/layouts/Layout";
+
 const QuizSelection = () => {
-  return <div>QuizSelection</div>;
+  return <Layout>QuizSelection</Layout>;
 };
 
 export default QuizSelection;
