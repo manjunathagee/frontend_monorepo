@@ -8,7 +8,8 @@
     "clean": "turbo clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "frontend-quiz-dev": "turbo dev --filter=frontend-quiz",
-    "frontend-quiz-build": "turbo build --filter=frontend-quiz"
+    "frontend-quiz-build": "turbo build --filter=frontend-quiz",
+    "employee-db-dev": "turbo dev --filter=employee-db"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
